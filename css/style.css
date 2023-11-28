@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --purple: #6f42c1;
+}
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  border: #fff;
+}
+h1 {
+  font-size: 98px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 28px;
+  color: rgb(99, 102, 105);
+  opacity: 0.7;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+.body-wrapper {
+  margin-top: 40px;
+}
+
+.navi-buttons {
+  display: flex;
+  justify-content: center;
+}
+.primary-button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+}
+.primary-button a {
+  color: white;
+  font-size: 13px;
+}
+.primary-button:hover {
+  background-color: var(--primary-color);
+}
+.primary-button a:hover {
+  color: var(--purple);
+}
+
+.secondary-button {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  padding: 20px 15px;
+}
+.secondary-button a {
+  color: var(--primary-color);
+  font-size: 13px;
+}
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+  font-size: 19px;
+  text-decoration: none;
+}
+.email-link a {
+  text-decoration: none;
+}
+
+.email-link a:hover {
+  text-decoration: underline;
+}
