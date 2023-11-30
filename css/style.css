@@ -31,7 +31,22 @@ p {
 .body-wrapper {
   margin-top: 40px;
 }
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+  font-size: 15px;
+  text-decoration: none;
+}
+.email-link a {
+  font-style: italic;
+  font-size: 15px;
+}
 
+.email-link a:hover {
+  color: red;
+  text-decoration: none;
+}
 .navi-buttons {
   display: flex;
   justify-content: center;
@@ -60,18 +75,4 @@ p {
 .secondary-button a {
   color: var(--primary-color);
   font-size: 13px;
-}
-.email-link {
-  text-align: center;
-  display: block;
-  color: var(--primary-color);
-  font-size: 19px;
-  text-decoration: none;
-}
-.email-link a {
-  text-decoration: none;
-}
-
-.email-link a:hover {
-  text-decoration: underline;
 }
