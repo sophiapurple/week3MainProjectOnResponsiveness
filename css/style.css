@@ -65,6 +65,7 @@ p {
   color: red;
   text-decoration: none;
 }
+
 .navi-buttons {
   display: flex;
   justify-content: center;
