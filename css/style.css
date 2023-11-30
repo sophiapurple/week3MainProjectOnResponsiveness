@@ -3,6 +3,20 @@
   --secondary-color: #f5f2fe;
   --purple: #6f42c1;
 }
+@media (max-width: 567px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 88px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}
 body {
   font-size: 1rem;
   font-weight: 400;
